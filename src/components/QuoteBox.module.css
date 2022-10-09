@@ -1,0 +1,91 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+
+.quoteBox{
+    display: flex;
+    background-color: #fff;
+    width: 38rem;
+    height: 18rem;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    height: 93%;
+}
+
+.theQuote {
+    margin: 20px 20px 30px 20px;
+    font-size: 1.6rem;
+    min-height: 100px;
+    max-height:100px;
+}
+
+.author {
+    margin: 5px 30px 15px 10px;
+    align-self:flex-end;
+    font-weight: 900;
+    min-height: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 0px 10px;
+    height: 100%;
+    padding: 10px;
+}
+
+.buttonContainer button {
+    padding:10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    color:white;
+    -webkit-transition: all 1.5s 0s ease;
+    -moz-transition: all 1.5s 0s ease;
+    -o-transition: all 1.5s 0s ease;
+    transition: all 1.5s 0s ease;
+}
+
+.tweetButton:hover{
+    /* width: 35px;
+    height: 40px; */
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.quoteButton:hover{
+    /* width: 95px;
+    height: 38px; */
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+
+
+/* .fade-appear {
+    opacity:0;
+    z-index: 1;
+}
+
+.fade-appear.fadeIn-appear-active {
+    opacity:1;
+    transition: opacity 600ms linear;
+}
+
+.fade-enter {
+    opacity:0;
+    z-index: 1;
+}
+
+.fade-enter.fadeIn-enter-active {
+    opacity:1;
+    transition: opacity 600ms linear;
+} */
