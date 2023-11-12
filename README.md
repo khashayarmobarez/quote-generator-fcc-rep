@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+**Quote Generator Website with React**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this project is made by khashayar mobarez haghigh.
+made this project with usage of only class components.
 
-## Available Scripts
+this project idea has came from the freecodecamp organization course and it is part of the final projects of the course
 
-In the project directory, you can run:
+This is a simple web application that generates random quotes with their respective authors to inspire and motivate users. The application is built using **React** and serves as a great introduction to React components, state management, and event handling.
 
-### `npm start`
+To use the application, simply click on the **Generate Quote** button to display a new quote. You can also share the quote on Twitter by clicking on the **Tweet** button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application is built using the following dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `react`: A JavaScript library for building user interfaces.
+- `react-dom`: A package that provides DOM-specific methods that can be used at the top level of your app.
+- `marked`: A package that converts markdown text into HTML.
+- `remarkable`: A package that converts markdown text into HTML.
+- `web-vitals`: A package that measures the performance of your web app.
 
-### `npm test`
+To run the application, you can use the following commands:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+npm start
+```
 
-### `npm run build`
+This will install the required dependencies and start the development server.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build the application for production, you can use the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will create a production-ready build of the application in the `build` directory.
 
-### `npm run eject`
+For more information on how to use React, please refer to the [official documentation](https://reactjs.org/docs/getting-started.html).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I hope this helps!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Source: Conversation with Bing, 11/12/2023
+(1) readme.so. https://readme.so/.
+(2) Quote-Generator-using-react - GitHub. https://github.com/pranjal3060/Quote-Generator-using-react/blob/main/README.md.
+(3) Generate beautiful README in 10 seconds - DEV Community. https://dev.to/kefranabg/generate-beautiful-readme-in-10-seconds-38i2.

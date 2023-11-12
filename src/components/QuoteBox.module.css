@@ -1,4 +1,7 @@
 /* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Caveat', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 
 .quoteBox{
@@ -7,7 +10,7 @@
     width: 38rem;
     height: 18rem;
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Caveat', cursive;
 }
 
 .container{
@@ -20,7 +23,7 @@
 
 .theQuote {
     margin: 20px 20px 30px 20px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     min-height: 100px;
     max-height:100px;
 }

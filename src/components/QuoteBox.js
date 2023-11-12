@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { useState } from 'react';
 import styles from "./QuoteBox.module.css"
 
 class QuoteBox extends Component {
+
 
     constructor(props) {
         super(props);
@@ -39,19 +41,19 @@ class QuoteBox extends Component {
     render() {
         const {colorHandler, color} = this.props;
         return (
-            <div className={styles.quoteBox}>
+            <div id='quote-box' className={styles.quoteBox}>
                 <div className={styles.container}>
 
                     
-                        <h1 className={styles.theQuote} style={{color: color}}>"{this.state.Quote}</h1>
-                        <p className={styles.author} style={{color: color}}>{this.state.author}</p>
+                        <h1 id='text' className={styles.theQuote} style={{color: color}}>"{this.state.Quote}</h1>
+                        <p id='author' className={styles.author} style={{color: color}}>{this.state.author}</p>
                     
                     
                 
 
                 <div className={styles.buttonContainer}>
-                    <button className={styles.quoteButton} onClick={() => {colorHandler();this.clickHandler();}} style={{background: color}}>new quote</button>
-                    <button className={styles.tweetButton} onClick={this.tweetHandler} style={{background: color}}>
+                    <button id='new-quote' className={styles.quoteButton} onClick={() => {colorHandler();this.clickHandler();}} style={{background: color}}>new quote</button>
+                    <button id='tweet-quote' className={styles.tweetButton} onClick={this.tweetHandler} style={{background: color}}>
                       <i className="fa-brands fa-twitter"></i>   
                     </button>
 
